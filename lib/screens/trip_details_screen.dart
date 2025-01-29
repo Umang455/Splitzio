@@ -57,7 +57,11 @@ class TripDetailsScreen extends StatelessWidget {
                           ),
                         ],
                       ),
+                       onTap: () {
+                              Navigator.pushNamed(context, '/expenseDetail');
+                            },
                     ),
+
                   ),
                 ),
               ),

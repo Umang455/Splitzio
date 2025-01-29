@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Travel Dashboard'),
+        title: Text('Splitzio'),
         centerTitle: true,
         backgroundColor: Colors.teal,
       ),
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Welcome Back!',
+                  'Welcome Back User!',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
