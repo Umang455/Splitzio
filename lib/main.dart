@@ -5,6 +5,7 @@ import 'screens/signup.dart';
 import 'screens/trip_details_screen.dart';
 import 'screens/add_expense_screen.dart';
 import 'screens/add_trip_screen.dart';
+import 'screens/expense_detail_screen.dart';
 
 void main() {
   runApp(TravelExpenseSplitterApp());
@@ -43,6 +44,7 @@ class TravelExpenseSplitterApp extends StatelessWidget {
         '/tripDetails': (context) => TripDetailsScreen(), // Trip Details screen
         '/addExpense': (context) => AddExpenseScreen(), // Add Expense screen
         '/addTrip': (context) => AddTripScreen(), // Add Trip screen
+        '/expenseDetail': (context) => ExpenseDetailsScreen(), // Add Trip screen
       },
     );
   }
